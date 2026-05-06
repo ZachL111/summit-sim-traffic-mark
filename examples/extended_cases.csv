@@ -1,0 +1,7 @@
+name,demand,capacity,latency,risk,weight,score,decision,reason
+baseline,66,89,19,12,9,177,accept,simulations baseline scenario keeps the local fixture within the modeled acceptance band
+pressure,85,74,28,19,8,141,review,simulations pressure scenario exercises the review path for bounded failure handling
+surge,102,99,24,17,14,254,accept,simulations surge scenario keeps the local fixture within the modeled acceptance band
+degraded,69,56,32,27,5,25,review,simulations degraded scenario exercises the review path for bounded failure handling
+recovery,86,107,20,9,11,260,accept,simulations recovery scenario keeps the local fixture within the modeled acceptance band
+boundary,80,82,23,17,9,165,accept,simulations boundary scenario keeps the local fixture within the modeled acceptance band
