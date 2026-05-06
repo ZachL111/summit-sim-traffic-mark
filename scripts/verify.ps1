@@ -59,3 +59,5 @@ foreach ($pathPattern in $knownPaths) {
 }
 
 dotnet run -- --test
+
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-summit-sim-traffic-detail.ps1
