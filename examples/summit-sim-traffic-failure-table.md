@@ -1,0 +1,18 @@
+# Summit Sim Traffic Mark Failure Table
+
+| Case | Focus | Expected Lane |
+| --- | --- | --- |
+| g001 | input pressure | ship |
+| g002 | state drift | ship |
+| g003 | review cost | hold |
+| g004 | decision risk | ship |
+| g005 | input pressure | ship |
+| g006 | state drift | ship |
+| g007 | review cost | ship |
+| g008 | decision risk | ship |
+| g009 | input pressure | ship |
+| g010 | state drift | ship |
+| g011 | review cost | watch |
+| g012 | decision risk | ship |
+
+Use this table when a verifier failure is hard to read from the raw CSV.

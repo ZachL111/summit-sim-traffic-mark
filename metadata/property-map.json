@@ -1,0 +1,28 @@
+{
+  "repo": "summit-sim-traffic-mark",
+  "language": "C#",
+  "category": "Simulations",
+  "goal": "Create a C# reference implementation for traffic workflows, centered on event replay, fixture event logs, and golden state snapshots.",
+  "weights": {
+    "signal": 2,
+    "slack": 2,
+    "confidence": 2,
+    "drag": 3
+  },
+  "thresholds": {
+    "ship": 193,
+    "watch": 95
+  },
+  "properties": [
+    "raising signal cannot reduce score",
+    "raising drag cannot improve score",
+    "lane labels must match configured thresholds",
+    "golden fixture ids must remain unique"
+  ],
+  "fixture_files": [
+    "fixtures/golden/scoreboard.csv",
+    "fixtures/golden/lane-matrix.csv",
+    "fixtures/fuzz/mutations.csv",
+    "fixtures/fuzz/boundary-cases.jsonl"
+  ]
+}

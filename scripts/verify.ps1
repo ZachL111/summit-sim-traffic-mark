@@ -61,3 +61,9 @@ foreach ($pathPattern in $knownPaths) {
 dotnet run -- --test
 
 powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-summit-sim-traffic-detail.ps1
+
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-summit-sim-traffic-properties.ps1
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-summit-sim-traffic-golden.ps1
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }

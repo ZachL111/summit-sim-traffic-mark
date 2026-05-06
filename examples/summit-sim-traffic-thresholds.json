@@ -1,0 +1,17 @@
+{
+  "repo": "summit-sim-traffic-mark",
+  "thresholds": {
+    "signal": 2,
+    "slack": 2,
+    "confidence": 2,
+    "drag": 3,
+    "ship": 193,
+    "watch": 95
+  },
+  "terms": [
+    "input pressure",
+    "state drift",
+    "review cost",
+    "decision risk"
+  ]
+}
